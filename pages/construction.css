@@ -1,0 +1,31 @@
+body {
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.fire-line {
+    height: 30px;
+    width: 100%;
+    background: url("/images/flamingline.gif") 0 100% repeat-x, url("/images/flamingline.gif") 75px 100% repeat-x;
+}
+
+.title-text {
+    font-size: 3em;
+    margin: 1em;
+    text-align: center;
+}
+
+.paragraph {
+    padding: 4em;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}

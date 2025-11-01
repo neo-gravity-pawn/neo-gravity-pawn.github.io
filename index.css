@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+#enter {
+    position: absolute;
+    top: 56%;
+    left:42%;
+    display: none;
+    transform: scale(1.3);
+}
+
+#lion-01 {
+    display: block;
+}
+
+#lion-02 {
+    display: none;
+}
+
+.image-container:hover #lion-01 {
+    display: none;
+}
+
+.image-container:hover #lion-02 {
+    display: block;
+}
+
+.image-container:hover #enter {
+    display: block;
+}
